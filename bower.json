@@ -1,0 +1,30 @@
+{
+  "name": "luffa",
+  "description": "A Test Framework",
+  "main": "index.js",
+  "authors": [
+    "Phodal Huang"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Test",
+    "Framework",
+    "Test",
+    "Helper"
+  ],
+  "homepage": "https://github.com/phodal/luffa",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "virtual-dom": "~2.1.1"
+  }
+}
