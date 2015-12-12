@@ -14,12 +14,14 @@
       "scripts/background.js"
     ]
   },
+  "devtools_page": "devtool.html",
   "permissions": [
     "background",
     "debugger",
     "storage",
     "webRequest",
-    "*://*.google.com"
+    "http://*/",
+    "https://*/*"
   ],
   "options_ui": {
     "page": "options.html",
