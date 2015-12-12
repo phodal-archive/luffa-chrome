@@ -1,4 +1,4 @@
-chrome.devtools.panels.create('Luffa', '', 'panel.html', function(panel) {
+chrome.devtools.panels.create('Luffa', '', 'devtool.html', function(panel) {
   var reactPanel = null;
   panel.onShown.addListener(function(window) {
     // when the user switches to the panel, check for an elements tab

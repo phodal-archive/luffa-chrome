@@ -2,29 +2,26 @@
 <html style="display: flex">
     <head>
         <meta charset="utf8">
-        <style>
-            html {
-                display: flex;
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-            }
-            body {
-                margin: 0;
-                padding: 0;
-                flex: 1;
-                display: flex;
-            }
-            #container {
-                display: flex;
-                flex: 1;
-            }
-        </style>
+      <!-- build:css styles/main.css -->
+      <link href="styles/main.css" rel="stylesheet">
+      <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="libs/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+      <!-- endbuild -->
+
     </head>
     <body>
-        <!-- main react mount point -->
-        <div id="container">Unable to find React on the page.</div>
+
+    <div class="row">
+      <div class="col-md-4">.col-md-4</div>
+      <div class="col-md-4">.col-md-4</div>
+      <div class="col-md-4">.col-md-4</div>
+    </div>
+
+
+    <!-- main react mount point -->
+    <div id="container">Unable to find React on the page.</div>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
     </body>
 </html>
